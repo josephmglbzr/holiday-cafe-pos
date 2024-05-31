@@ -1,0 +1,13 @@
+@page
+{
+
+}
+#print-btn
+{
+  display: none;
+  visibility: none;
+}
+.close{
+  display: none;
+  visibility: none;
+}

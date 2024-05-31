@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    position: relative;
+    top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2rem;
+    padding: 1rem 1.8rem;
+}
+form span{
+    font-size: .9rem;
+}
+form fieldset{
+    width: 350px;
+    font-size: .9rem;
+    padding: .2rem .5rem;
+    margin: .5em 0;
+}
+form fieldset input {
+    width: 100%;
+    font-size: .9rem;
+    border: none;
+    outline: none;
+    
+}
+/* Style the submit button */
+#message h3{
+    font-size: .8rem;
+    font-weight: 500;
+}
+#message p {
+    padding: .2rem 1.2rem;
+    font-size: .8rem;
+}
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+.valid:before {
+    position: relative;
+    left: -15px;
+    content: "✔";
+}
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: rgb(230, 100, 100);
+}
+.invalid:before {
+    position: relative;
+    left: -15px;
+    content: "✖";
+}
+form #age-gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: .4rem 0;
+}
+form #age-gender .age-gender2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    font-size: .9rem;
+}
+.g-recaptcha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem 0;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1em 0;
+}
+.submit input{
+    padding: .3rem .8rem;
+    border-radius: 1rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
